@@ -4,4 +4,6 @@ import IntH
 import FloatH
 
 main :: IO ()
-main = floatH
+main = do
+    intH
+    floatH
