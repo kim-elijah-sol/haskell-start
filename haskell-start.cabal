@@ -24,6 +24,8 @@ source-repository head
   location: https://github.com/githubuser/haskell-start
 
 library
+  exposed-modules:
+      IntH
   other-modules:
       Paths_haskell_start
   autogen-modules:
