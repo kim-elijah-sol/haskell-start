@@ -4,6 +4,9 @@ module IntH (intH) where
 add :: Int -> Int -> Int
 add a b = a + b
 
+multiply :: Int -> Int -> Int
+multiply a b = a * b
+
 intH :: IO()
 intH = do
     -- putStrLn은 문자열을 출력하는 함수
@@ -15,4 +18,11 @@ intH = do
     putStrLn $ "1 + 2 = " ++ show (1 + 2)
     putStrLn $ "3 + 4 = " ++ show (add 3 4)
     putStrLn $ "5 + 10 = " ++ show (add 5 10)
+    putStrLn $ ""
+
+    putStrLn $ "Int 다루기: 곱셈"
+    putStrLn $ "---------"
+    putStrLn $ "1 * 2 = " ++ show (1 * 2)
+    putStrLn $ "3 * 4 = " ++ show (multiply 3 4)
+    putStrLn $ "5 * 10 = " ++ show (multiply 5 10)
     putStrLn $ ""
