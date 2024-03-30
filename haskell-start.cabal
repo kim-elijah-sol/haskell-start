@@ -27,6 +27,7 @@ library
   exposed-modules:
       FloatH
       IntH
+      StringH
   other-modules:
       Paths_haskell_start
   autogen-modules:
